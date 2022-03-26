@@ -65,7 +65,7 @@ const pause = async () => {
 const readInput = async (message) => {
     const question = [
         {
-            tyupe: 'input',
+            type: 'input',
             name: 'desc',
             message,
             validate(value) {
